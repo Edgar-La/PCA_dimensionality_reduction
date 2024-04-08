@@ -1,6 +1,6 @@
 # Principal Component Analysis: A dimensionlity reduction algorithm
 
-## Theory - example on paper
+## 1) Theory - _example on paper_
 ### Data
 Given the 2d data:
 $x_1 = (3,2)$
@@ -19,6 +19,10 @@ $x_13 = ()$
 $x_14 = ()$
 $x_15 = ()$
 
+### Standardize data
+
+$x_{std} = \frac{x - \mu_x}{\sigma_x}$
+
 ### Calculate covariance matrix
 ### Build $\lambda$ identity matrix and sustract covariance matrix
 ### Calculate determinant of previous matrix
@@ -26,7 +30,7 @@ $x_15 = ()$
 ### Find eigenvectors
 ### Dimensionality projections
 
-## Implementation - PCA from scratch
+## 2) Implementation - _PCA from scratch_
 
-## Comparison - Implementation with Scikit Learn
+## 3) Comparison - _Implementation with Scikit Learn_
 
