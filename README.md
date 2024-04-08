@@ -39,6 +39,23 @@ $x_{std} = \frac{x - \mu_x}{\sigma_x}$
 
 
 ### Calculate covariance matrix
+
+$\text{Var}(X) = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n}$
+
+$\text{Cov}(X, Y) = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{n}$
+
+|   |x  |y |
+|---|---|---|
+| x | var(x)| cov(x,y)|
+| y | cov(x,y)| var(y)|
+
+
+|   |x  |y |
+|---|---|---|
+| x |1  |-0.053092  |
+| y |-0.053092	  |1  |
+
+
 ### Build $\lambda$ identity matrix and sustract covariance matrix
 ### Calculate determinant of previous matrix
 ### Solve the equation for $\lambda$ value to find eigenvalues
